@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* 
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000 */
+
+
+/* ============================ GENERAL ============================ */
+
+
+/* html {
+    fontsize: 62,5%;
+} */
+
+body {
+    background: #eee;
+}
+
+header, main, footer {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+hr {
+    border: 0.5px solid #ccc; 
+}
+
+img:hover {
+    box-shadow: 0.5px 0.5px 15px rgb(90, 85, 85);
+}
+
+/* ============================ HEADER ============================ */
+
+header nav ul li {
+    font-size: 0.7rem;
+    display: inline-block;
+    padding: 5vh 2vw 5vh 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #659d89;
+}
+
+header article {
+    width: 500px;
+    padding: 35vh 0 20vh 0;
+}
+
+header article h1 {
+    color: #659d89;
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 1vh;
+}
+
+header article h2 {
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+header div {
+    padding-bottom: 6vh; ;
+}
+
+header div ul li {
+    text-align: right;
+    list-style: none;
+}
+
+header div ul li img {
+    opacity: 0.4;
+    width: 20px;
+    padding-top: 3px;
+}
+
+header p {
+    font-size: 0.7rem; 
+    margin-bottom: 16vh;
+}
+
+/* ============================ MAIN ============================ */
+
+main h3:nth-of-type(1){
+    font-size: 1.1rem;
+    font-weight: 350;
+    margin-bottom: 2vh;
+}
+
+
+main h3:nth-of-type(2){
+    font-size: 1.1rem;
+    font-weight: 350;
+    margin-bottom: 12vh;
+}
+
+
+
+
+/* 
+main h3:nth-of-type(2) {
+    border-top: 0.5px solid #ccc; 
+} */
+
+
+
+
+
+
+
+main p {
+    font-size: 0.7rem;
+    margin-bottom: 10vh;
+}
+
+main ul {
+    text-align: center;
+    margin-bottom: 16vh;
+}
+
+main ul li {
+    display: inline-block;
+}
+
+main ul li img {
+    width: 210px;
+    margin: 2vw;
+}
+
+/* ----------------------- odd sections ----------------------- */
+
+
+section:nth-of-type(odd) a img {
+    width: 500px;
+    margin-left: 5vw;
+    margin-bottom: 1.5vh;
+}
+
+
+section:nth-of-type(odd) div {
+    line-height: none;
+    width: 500px;
+    margin-left: 5vw;
+}
+
+section:nth-of-type(odd) div p {
+    text-align: center;
+}
+
+section:nth-of-type(odd) div p:nth-of-type(1) {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin-bottom: 3vh; 
+}
+
+section:nth-of-type(odd) div p:nth-of-type(2) {
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+}
+
+section:nth-of-type(odd) div p:nth-of-type(3) {
+    color: #666;
+    font-size: 0.6rem;
+}
+
+
+/* ----------------------- even sections ----------------------- */
+
+
+
+section:nth-of-type(even) {
+    margin-left: 30vw;
+    /* margin: 0 auto;
+    text-align:right;
+    width: 80%; */
+}
+
+section:nth-of-type(even) a img {
+    width: 500px;
+    margin-bottom: 1.5vh;
+}
+
+section:nth-of-type(even) div {
+    line-height: none;
+    width: 500px;
+    display: inline-block;
+}
+
+section:nth-of-type(even) div p {
+    text-align: center;
+}
+
+section:nth-of-type(even) div p:nth-of-type(1) {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin-bottom: 3vh; 
+}
+
+section:nth-of-type(even) div p:nth-of-type(2) {
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+}
+
+section:nth-of-type(even) div p:nth-of-type(3) {
+    color: #666;
+    font-size: 0.6rem;
+}
+
+
+
+/* ============================ FOOTER ============================ */
+
+
+footer p:nth-of-type(1) {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 15vh auto;
+    text-align: center;
+    color: #666;
+}
+
+footer p:nth-of-type(2) {
+    font-size: 0.6rem;
+    font-weight: 350;
+    margin: 25vh auto 3vh auto;
+    text-align: center;
+    color: #666;
+}
